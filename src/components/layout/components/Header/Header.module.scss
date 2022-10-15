@@ -1,0 +1,12 @@
+.primary-header {
+    height: var(--default-layout-header-height);
+    width: 100%;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+}
+
+.container {
+    --padding: 1.6rem;
+    width: min(var(--max-width-content), 100% - var(--padding) * 2);
+    margin-inline: auto;
+    height: 100%;
+}
